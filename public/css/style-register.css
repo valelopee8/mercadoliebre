@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form {
+    width: 60%; 
+}
+
+.formulario__register {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__register h3 {
+    text-align: left;
+}
+
+.formulario__register input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.formulario__register button {
+    border: 1px solid #1259c3;
+    padding: 12px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: #1259c3;
+}
+
+.formulario__register-perfil-de-usuario {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario__register-intereses {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 30px;
+}
+
+@media(min-width: 768px){
+    form {
+        width: 75%;
+    }
+}
