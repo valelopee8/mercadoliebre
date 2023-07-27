@@ -90,8 +90,10 @@ ul {
 main {
     background-color: #ebebeb; 
     text-align: center; 
-    margin: auto; 
     width: 90%;
+    margin: auto; 
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 main h4 {
