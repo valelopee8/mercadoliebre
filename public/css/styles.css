@@ -35,16 +35,12 @@ header {
     font-size: 12px;
 }
 
-.barra-de-busqueda span {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    color: #666;
-    background-color: #ffffff;
+.barra-de-busqueda input {
+    font-family: 'Roboto', sans-serif; 
+    width: 70%;
     border: none;
+    border-radius: 5px;
     padding: 5px;
-    border-radius: 10px;
 }
 
 .mensaje {
