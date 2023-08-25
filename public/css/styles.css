@@ -26,7 +26,7 @@ header {
 }
 
 .logo {
-    width: 50%;
+    max-width: 150px;
 }
 
 .barra-de-busqueda {
@@ -238,7 +238,7 @@ footer section > i:hover{
     }
 
     .logo {
-        width: 30%;
+        width: 50%;
     }
 
     .barra-de-busqueda {
