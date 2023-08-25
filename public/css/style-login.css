@@ -32,6 +32,7 @@ main {
 }
 
 .formulario__login button {
+    font-family: 'Roboto', sans-serif;
     border: 1px solid #1259c3;
     padding: 12px;
     border-radius: 15px;
@@ -40,14 +41,14 @@ main {
     color: #ffffff;
     font-weight: bolder;
     background-color: #1259c3;
-    transition-duration: 450ms;
+    transition-duration: 250ms;
     transition-timing-function: ease-in-out;
 }
 
 .formulario__login button:hover{
     background-color: #0022AA;
     border-color: #0022AA;
-    transition: background-color,450ms,border-color,450ms;
+    transition: background-color,250ms,border-color,250ms;
     transition-timing-function: ease-in-out;
 }
 /* FIN DEL MAIN */

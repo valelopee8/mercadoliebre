@@ -29,6 +29,7 @@ main {
 }
 
 .formulario__register button {
+    font-family: 'Roboto', sans-serif;
     border: 1px solid #1259c3;
     padding: 12px;
     border-radius: 15px;
@@ -36,6 +37,15 @@ main {
     color: #ffffff;
     font-weight: bolder;
     background-color: #1259c3;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+.formulario__register button:hover{
+    background-color: #0022AA;
+    border-color: #0022AA;
+    transition: background-color,250ms,border-color,250ms;
+    transition-timing-function: ease-in-out;
 }
 
 .formulario__register-perfil-de-usuario {
