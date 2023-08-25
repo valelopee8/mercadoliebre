@@ -32,6 +32,8 @@ main {
 }
 
 .formulario__login button {
+    width: 200px;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
     border: 1px solid #1259c3;
     padding: 12px;
